@@ -35,6 +35,17 @@ button.btn {
 }
 
  /*******Categories item of left side********/
+
+/*@media screen and (max-width: 575px){
+    .feature_item{
+      max-width: 240px;
+      max-height: 480px;
+    }
+}*/
+
+.accordion button:hover, .form-check label:hover {
+    color: blue;
+}
  .list-group-item{
    display: list-item;
  }
@@ -43,7 +54,10 @@ button.btn {
     background-color: #F8F9FA;
     margin-left: 5px;
  }
-
+.list-group li:hover{
+    color: blue;
+    background-color: #ddd;
+ }
 .grid_sort .icon .active{
      color: #2ecc71;
      margin-bottom: 30px;
