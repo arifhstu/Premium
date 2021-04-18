@@ -126,6 +126,11 @@ i{
     .feature_item img{
     height: 200px;
   }
+  } 
+  @media screen and (max-width: 575px){
+    .feature_item img{
+    height: 180px;
+  }
   }
 
 /*******product item hover************/
