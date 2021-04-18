@@ -24,6 +24,7 @@ h1, h2, h3, p, a{
 }
 button.btn {
     background: #2ecc71;
+    color: #fff;
   }
 @media screen and (max-width: 767px){
      h1, h2, h3{
@@ -32,6 +33,9 @@ button.btn {
      button{
       font-size: 15px;
      }  
+}
+i{
+  cursor: pointer;
 }
 
  /*******Categories item of left side********/
@@ -67,32 +71,35 @@ button.btn {
      border-bottom: 2px solid #2ecc71;
      display: inline-block;
      width: 200px; 
-     height: 5px
+     height: 5px;
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
      .underlinee{
      width: 150px; 
       }  
 }
+.sort{
+       border-bottom: 2px solid #2ecc71;
+     display: inline-block;
+     width: 50%; 
+     height: 5px;
+}
 
 .Clear_all{
      background-color: #ddd !important;
+     color: #000 !important;
 }
 
 /***************** product area******************** */
- 
-
 .main_title h2 {
     font-weight: 700;
     margin-bottom: 40px;
     line-height: 50px;
     text-transform: uppercase;
 }      
-
 .feature_item {
   padding: 15px 10px;
   text-align: center;
-  /*background: #f9f9fd;*/
   border: 1px solid #ddd;
   border-radius: 5%;
   cursor: pointer;
@@ -100,21 +107,30 @@ button.btn {
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s; }
-  .feature_item img {
-    margin-bottom: 35px; }
+  transition: all 0.4s ease 0s; 
+}
   .feature_item h4 {
     font-size: 20px;
     margin-bottom: 20px;
-    text-transform: uppercase; }
+    text-transform: uppercase; 
+  }
   .feature_item p {
     margin-bottom: 0px; 
+  }
+  .feature_item img{
+    margin-bottom: 35px;
+    height: 300px;
+    width: auto;
+  }
+  @media screen and (max-width: 575px){
+    .feature_item img{
+    height: 250px;
+  }
   }
 
 /*******product item hover************/
   .feature_item:hover {
     box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
-    /*background: #FDD700; */
   }
 
 
